@@ -1184,7 +1184,6 @@ html, body {
    
    .continer{
       display: block;
-      overflow-x: hidden;
    }
    .unipd{
       padding: 0;
