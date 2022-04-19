@@ -1184,7 +1184,7 @@ html, body {
    
    .continer{
       display: block;
-      overflow: clip;
+      overflow-x: clip;
    }
    .unipd{
       padding: 0;
