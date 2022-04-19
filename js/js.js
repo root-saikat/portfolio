@@ -22,9 +22,9 @@ let sr = ScrollReveal({
 sr.reveal(".chat");
 sr.reveal(".hire-me",{ origin:"top"});
 
-sr.reveal("#services",{ origin:"right"});
+sr.reveal("#services",{ origin:"left"});
 sr.reveal(".work-xp-ltd",{ origin:"left"});
-sr.reveal(".arrow2",{ origin:"right"});
+sr.reveal(".arrow2",{ origin:"up"});
 sr.reveal(".arrow1",{ origin:"left"});
 
 let sl = ScrollReveal({
@@ -32,7 +32,7 @@ let sl = ScrollReveal({
   distance:"60px",
 });
 sl.reveal(".f-review",{ origin:"left"});
-sl.reveal(".tnd-review",{ origin:"right"});
+sl.reveal(".tnd-review",{ origin:"up"});
 // port
 
 let mixer = mixitup('.port-gl');

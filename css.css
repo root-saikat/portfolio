@@ -7,6 +7,17 @@ body.stopScrolling{
    height: 100%;
    overflow: hidden;
 }
+html,body{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;
+   /* overflow-x: hidden; */
+}
+html.sr {
+   margin: 0;
+   padding: 0;
+}
 @font-face {
    font-family: ubuntu-regular;
    src: url(fonts/Ubuntu-Regular.ttf);
@@ -54,7 +65,7 @@ body.stopScrolling{
    grid-area: nav-bnr ;
    background:url(img/bnr-photo2.png) no-repeat;
    background-size:100% 100%;
-   margin-right: 1%;
+   /* margin-right: 1%; */
 
 }
 nav{
@@ -259,7 +270,7 @@ a.hrme::before {
    background-size: 100% 100%;
    display: flex;
    justify-content: space-between;
-   margin-right: 2%;
+   /* margin-right: 2%; */
 
 
 }
@@ -615,7 +626,7 @@ span.prt-icon {
     background-size: 100% 100%; 
     padding-top: 3%;
     padding-bottom: 3%; 
-    margin-right: 2%;
+    /* margin-right: 2%; */
 }
 .work-exp-head{
     text-align: center;
@@ -910,7 +921,7 @@ footer{
    flex-direction: column;
    text-align: center;   
    margin-top: 50px;
-   margin-right: 2%;
+   /* margin-right: 2%; */
 
 }
 .footer-icon{
@@ -1140,10 +1151,6 @@ html, body {
    }
    .continer{
       display: block;
-   }
-   body{
-      overflow-x: hidden;
-   }
    /* .portfolio-head{
       padding: 0;
    }
@@ -1181,7 +1188,8 @@ html, body {
 }
 /* media query for phone/mobile device */
 @media screen and (max-width:450px){
-   
+
+
    .continer{
       display: block;
    }
