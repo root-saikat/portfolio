@@ -1140,7 +1140,6 @@ html, body {
    }
    .continer{
       display: block;
-      overflow-x: hidden;
    }
    body{
       overflow-x: hidden;
