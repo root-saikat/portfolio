@@ -1141,6 +1141,9 @@ html, body {
    .continer{
       display: block;
    }
+   body{
+      overflow-x: hidden;
+   }
    /* .portfolio-head{
       padding: 0;
    }
