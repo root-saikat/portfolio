@@ -1,0 +1,79 @@
+
+var hmmenu = document.querySelector(".hm-menu");
+const prt_div = document.querySelector("#portfolio");
+const zoom_icons = document.querySelectorAll(".zoom-icon");
+const model_overley = document.querySelector(".model-overley");
+const images =document.querySelectorAll(".images img");
+const next_btn =document.querySelector(".next-btn");
+const prev_btn =document.querySelector(".prev-btn");
+
+
+
+function hmmenutoggle(){
+    hmmenu.classList.toggle("hm-menu-height"); 
+}
+
+
+let sr = ScrollReveal({
+  duration:2000,
+  distance:"60px",
+});
+
+sr.reveal(".chat");
+sr.reveal(".hire-me",{ origin:"top"});
+
+sr.reveal("#services",{ origin:"right"});
+sr.reveal(".work-xp-ltd",{ origin:"left"});
+sr.reveal(".arrow2",{ origin:"right"});
+sr.reveal(".arrow1",{ origin:"left"});
+
+let sl = ScrollReveal({
+  duration:1500,
+  distance:"60px",
+});
+sl.reveal(".f-review",{ origin:"left"});
+sl.reveal(".tnd-review",{ origin:"right"});
+// port
+
+let mixer = mixitup('.port-gl');
+
+// model pop up animation
+let currentindex = 0;
+
+zoom_icons.forEach((icn,i) => icn.addEventListener("click",() => {
+    prt_div.classList.add("open");
+    document.body.classList.add("stopScrolling");
+    currentindex = i;
+    changeImage(currentindex);
+}));
+
+model_overley.addEventListener("click",() => {prt_div.classList.remove("open");
+ document.body.classList.remove("stopScrolling");
+});
+
+
+prev_btn.addEventListener("click",() => {
+    if(currentindex === 0){
+        currentindex=7
+    }else{
+        currentindex--;
+    }
+  
+    changeImage(currentindex);
+});
+next_btn.addEventListener("click",() => {
+    if(currentindex === 7){
+        currentindex=0
+    }else{
+        currentindex++;
+    }
+  
+    changeImage(currentindex);
+});
+
+
+function changeImage(index){
+   images.forEach((img) => img.classList.remove("showImage"));
+//    console.log(images[index]);
+   images[index].classList.add("showImage");
+}
