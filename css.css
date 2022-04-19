@@ -1140,6 +1140,7 @@ html, body {
    }
    .continer{
       display: block;
+      width: min-content;
    }
    /* .portfolio-head{
       padding: 0;
