@@ -1362,6 +1362,21 @@ html, body {
       width:93vw;
       padding: 0 15%;
    }
+
+   .model-overley {
+      position: absolute;
+      width: 100%;
+      height: 60%;
+      top: 20%;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.85);
+      opacity: 0;
+      transition: 0.3s;
+    }
+
+    .slider-wrap .images {
+      height: 58vh;
+    }
    /* work xp */
    .work-exp-head{
       font-size: 20px;
