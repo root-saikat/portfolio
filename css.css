@@ -619,6 +619,12 @@ span.prt-icon {
    opacity: 1;
    transition: 0.45s 0.1s;
 }
+.exit{
+   position: absolute;
+   left: 15%;
+   top: 65%;
+   color: white;
+}
                               /* work-experience start */
 #work-exp{
     grid-area:work ;
