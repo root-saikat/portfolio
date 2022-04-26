@@ -624,6 +624,7 @@ span.prt-icon {
    left: 15%;
    top: 15%;
    color: white;
+   display: none;
 }
                               /* work-experience start */
 #work-exp{
@@ -1367,6 +1368,9 @@ html, body {
       gap: 1rem;
       width:93vw;
       padding: 0 15%;
+   }
+   .exit{
+      display: block;
    }
    /* .model-overley {
       position: absolute;
