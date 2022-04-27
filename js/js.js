@@ -77,3 +77,15 @@ function changeImage(index){
 //    console.log(images[index]);
    images[index].classList.add("showImage");
 }
+
+
+
+// typed js 
+
+var typed = new Typed(".type-0", {
+    strings: ["Web Designer . Graphic Designer . Wordpress Expert"],
+    typeSpeed: 50,
+    showCursor: false,
+    // backSpeed: 60,
+    loop: false
+});
