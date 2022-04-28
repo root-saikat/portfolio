@@ -269,10 +269,14 @@ a.hrme::before {
    background: url(img/aboutme.jpg) no-repeat;
    background-size: 100% 100%;
    display: flex;
+   flex-direction: column;
+   gap: 30px;
+   margin-bottom: 30px;
+   
+}
+.about-up{
+   display: flex;
    justify-content: space-between;
-   /* margin-right: 2%; */
-
-
 }
 .about-img{
    display: flex;
@@ -355,6 +359,142 @@ img {
    display: flex;
    flex-direction: column;
 }
+/* skil section */
+
+.skills{
+   display: grid;
+   grid-template-columns: 50% 50%;
+}
+.technical-skills {
+   display: flex;
+   flex-direction: column;
+}
+.technical-skills h3{
+   font-size: 25px;
+   /* text-align: center; */
+   margin-left: 22%;
+}
+.ts {
+   display: grid;
+   height: 100%;
+   padding: 15px;
+}
+.t-skill {
+   display: grid;
+   /* place-items: center; */
+}
+.t-skill-txt {
+   display: flex;
+   justify-content: space-between;
+   width: 80%;
+}
+.tst2{
+   padding-right: 11%;
+}
+.t-skill-txt.tst3 {
+   padding-right: 22%;
+}
+.t-skill-txt.tst4 {
+   padding-right: 3%;
+}
+.t-skill-bar{
+   position: relative;
+   width: 80%;
+   height: 5px;
+   background: #444444;
+   border-radius: 5px;
+}
+.t-skill-bar::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 5px;
+   width: 100%;
+   background: linear-gradient(to right, #00b8fe,#006ae8);
+   border-radius: 5px;
+}
+.tsb2::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 5px;
+   width: 80%;
+   background: linear-gradient(to right, #00b8fe,#006ae8);
+   border-radius: 5px;
+}
+.tsb3::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 5px;
+   width: 65%;
+   background: linear-gradient(to right, #00b8fe,#006ae8);
+   border-radius: 5px;
+}
+.tsb4::before{
+   content: "";
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 5px;
+   width: 90%;
+   background: linear-gradient(to right, #00b8fe,#006ae8);
+   border-radius: 5px;
+}
+
+
+
+
+/* professional skills  */
+.professional-skills {
+   display: grid;
+   place-items: center;
+}
+.professional-skills .h3{
+   font-size: 25px;
+}
+.ps {
+   display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(48%, 1fr));
+    width: 100%;
+    grid-auto-rows: 120px;
+    height: fit-content;
+    align-items: center;
+   
+}
+.professional-skills h3 {
+   font-size: 25px;
+}
+.box{
+   width: 100%;
+   height: 80%;
+   display: grid;
+    place-items: center;
+    gap: 10px;
+}
+.box h5 {
+   font-size: 16px;
+}
+.box .chart {
+   position: relative;
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   display: grid;
+   align-items: end;
+   font-size: medium;
+}
+.box canvas {
+   position: absolute;
+   top: 11px;
+    left: 39%
+}
+
+
+
                               /* services start */
 #services{
    grid-area:service ;

@@ -80,6 +80,7 @@
           </div>
           <!-- About me -->
           <div id="about" class="unipd">
+              <div class="about-up">
               <div class="about-img">
                 <div class="abimg">
                     <img src="img/about-img.png">
@@ -108,9 +109,9 @@
                          <div class="ts-img">
                            <img src="img/ts-2.png" >
                          </div>
-                         <div class="ts-text">
-                              <span class="ts-sp">Developing</span>
-                              <span class="ts-spp">Concept</span>
+                         <div class="ts-text ">
+                              <span class="ts-sp">My</span>
+                              <span class="ts-spp skills">Skills</span>
                          </div>
                         </div>
                        </div>
@@ -137,7 +138,80 @@
                        
                 </div>
               </div>
+              </div>
+              <div class="skills" id="skills">
+                <div class="technical-skills">
+                      <h3>Technical Skills</h3>
+                      <div class="ts">
+                        <div class="t-skill">
+                          <div class="t-skill-txt">
+                            <span>HTML 5</span>
+                            <span>100%</span>
+                          </div>
+                          <div class="t-skill-bar">
+                            
+                          </div>
+                        </div>
+                        <div class="t-skill">
+                          <div class="t-skill-txt">
+                            <span>CSS 3</span>
+                            <span>80%</span>
+                          </div>
+                          <div class="t-skill-bar tsb2">
 
+                          </div>
+                        </div>
+                        <div class="t-skill">
+                          <div class="t-skill-txt">
+                            <span>javaScript</span>
+                            <span>65%</span>
+                          </div>
+                          <div class="t-skill-bar tsb3">
+
+                          </div>
+                        </div>
+                        <div class="t-skill">
+                          <div class="t-skill-txt">
+                            <span>WordPress</span>
+                            <span>90%</span>
+                          </div>
+                          <div class="t-skill-bar tsb4">
+
+                          </div>
+                        </div>
+                        <div class="t-skill">
+                          <div class="t-skill-txt">
+                            <span>Bootstrap</span>
+                            <span>100%</span>
+                          </div>
+                          <div class="t-skill-bar">
+
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="professional-skills">
+                      <h3>Professional Skills</h3>
+                      <div class="ps">
+                        <div class="box">
+                          <div class="chart" data-percent="95" >95%</div>
+                          <h5>Communication</h5>
+                        </div>
+                        <div class="box">
+                          <div class="chart" data-percent="65" >65%</div>
+                          <h5>Team Work</h5>
+                        </div>
+                        <div class="box">
+                          <div class="chart" data-percent="86" >86%</div>
+                          <h5>Project Managment</h5>
+                        </div>
+                        <div class="box">
+                          <div class="chart" data-percent="62" >62%</div>
+                          <h5>Creativity</h5>
+                        </div>
+                      </div>
+                </div>
+              </div>
           </div>
           <!-- Services -->
           <div id="services" class="unipd">
@@ -585,6 +659,21 @@
     
     <script src="js/mixitup.min.js"></script>
     <script src="js/js.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"></script>
+    <script>
+      $(function() {
+          $('.chart').easyPieChart({
+            size: 50,
+            barColor:"#00b8fe",
+            scaleLength: 0,
+            lineWidth: 7,
+            trackColor: "#444444",
+            lineCap: "circle",
+            animate: 2000,
+          });
+      });
+    </script>
 
 </body>
 </html>
