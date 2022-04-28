@@ -89,3 +89,10 @@ var typed = new Typed(".type-0", {
     // backSpeed: 60,
     loop: false
 });
+
+// sticky nav
+
+window.addEventListener("scroll",function(){
+    var pd = document.querySelector(".pdul");
+    pd.classList.toggle("sticky",window.scrollY >0);
+})

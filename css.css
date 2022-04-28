@@ -82,6 +82,25 @@ nav{
    padding-left: 11%;
    padding-right: 7%;
 }
+.pdul.sticky{
+   /* background: linear-gradient(to right, #00b8fe,#006ae8); */
+   padding-top: 0;
+   z-index: 200000;
+   margin-top: 0;
+   position: fixed;
+   position: fixed;
+   top: 30%;
+   left: 0;
+   display: grid;
+   gap: 8px;
+   transition: 0.6s;
+   width: 80px;
+}
+.pdul.sticky li{
+   display: inline-block;
+   border: 1px solid #444444;
+   background: white;
+}
 .logo img{
    width: 60px;
    height: 60px;
