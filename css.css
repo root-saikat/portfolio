@@ -1728,7 +1728,7 @@ html, body {
    .f-text p {
       font-size: 12px;
       font-weight: normal;
-      padding: 0;
+      padding: 0 5px;
    }
    .review-nm {
       font-size: 17px;
