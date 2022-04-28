@@ -1453,7 +1453,7 @@ html, body {
       /* padding-bottom: 10%; */
       font-size: 20px;
       /* font-weight: bold; */
-      clip-path: polygon(16% 0%, 89% 0%, 100% 100%, 4% 100%);
+      clip-path: polygon(31% 0%, 70% 0%, 78% 100%, 24% 100%);
    }
    .p {
       padding-bottom: 10px;
@@ -1468,9 +1468,44 @@ html, body {
    .ts-spp {
       font-size: 12px;
    }
+   
+   .skills{
+      display: flex;
+      flex-direction: column;
+   }
+   .t-skill{
+      place-items: center;
+   }
+   .technical-skills h3{
+      margin-left: 30%;
+   }
+   .box canvas {
+      position: absolute;
+      top: 8px;
+      left: 37%;
+   }
+   .about-img {
+      display: none;
+   }
+   .about-text {
+      flex-basis: 100%;
+   }
+   .about-text {
+      padding-top: 0;
+      padding-right: 0;
+      margin: 0 7%;
+   }
+
+
+
+
+
+
+
    /* service */
    #services{
       flex-direction: column;
+      gap: 20px;
    }
    .srimg {
       width: 60px;
@@ -1490,10 +1525,19 @@ html, body {
       padding-left: 18px;
       align-items: center;
    }
+   .sr {
+      padding-left: 35px;
+      align-items: center;
+      padding-right: 35px;
+   }
    .services-p p {
     font-size: 10px;
     line-height: 20px;
+    margin: 0 53px;
    }
+
+
+
    /* portfolio */
    .portfolio-head{
       font-size: 20px;
@@ -1531,12 +1575,17 @@ html, body {
    }
    .port-gl{
       gap: 1rem;
-      width:93vw;
-      padding: 0 15%;
+      width: 100vw;
+      padding: 0 8%;
+      grid-template-columns: repeat(auto-fill,minmax(100px,1fr));
    }
    .exit{
       display: block;
    }
+   .prt-desc {
+      padding: .5rem 0rem;
+   }
+
    /* .model-overley {
       position: absolute;
       width: 100%;
@@ -1580,7 +1629,15 @@ html, body {
       padding-left: 18px;
       padding-right: 18px;
       flex-direction: column;
+      gap: 20px;
    }
+   .work-xp1 {
+      margin: 0 50px;
+   }
+   .xp {
+      margin: 0 37px;
+   }
+
    /* counter */
    #counter{
       padding-bottom: 5px;
