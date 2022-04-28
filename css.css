@@ -386,6 +386,7 @@ img {
 .skills{
    display: grid;
    grid-template-columns: 50% 50%;
+   padding-top: 15px;
 }
 .technical-skills {
    display: flex;
