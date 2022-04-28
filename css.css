@@ -293,7 +293,7 @@ a.hrme::before {
    display: flex;
    flex-direction: column;
    gap: 30px;
-   margin-bottom: 36px;
+   margin-bottom: 30px;
    
 }
 .about-up{
