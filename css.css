@@ -1445,7 +1445,9 @@ html, body {
       width: 0;
       height: 0;
    }
-
+   .hm-menu{
+      width: fit-content;
+   }
 
    /* about */
    #about{
