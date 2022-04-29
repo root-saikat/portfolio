@@ -1440,6 +1440,9 @@ html, body {
       transition: 0.3s ease-in-out;
       animation: none;
    }
+   .pdul.sticky{
+      display: none;
+   }
 
 
    /* about */
