@@ -1442,6 +1442,8 @@ html, body {
    }
    .pdul.sticky{
       display: none;
+      width: 0;
+      height: 0;
    }
 
 
@@ -1465,7 +1467,7 @@ html, body {
    }
    .p {
       padding-bottom: 10px;
-      font-size: 15px;
+      font-size: 17px;
    }
    .ts-img {
       width: 70px;
