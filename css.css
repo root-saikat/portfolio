@@ -125,7 +125,7 @@ nav ul li a{
    color: #00bbff;
 }
 
-.nav-link[aria-current="page"] {
+.nav-link[aria-current="location"] {
    color: #00bbff;
  }
 /* hm menu */
