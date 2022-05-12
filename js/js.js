@@ -96,3 +96,12 @@ window.addEventListener("scroll",function(){
     var pd = document.querySelector(".pdul");
     pd.classList.toggle("sticky",window.scrollY >0);
 })
+
+
+// active nav
+
+document.querySelectorAll('.nav-link').forEach(link => {
+    if(link.href === window.location.href){
+      link.setAttribute('aria-current', 'page')
+    }
+})

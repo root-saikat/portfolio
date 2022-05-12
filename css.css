@@ -124,6 +124,10 @@ nav ul li a{
 .active{
    color: #00bbff;
 }
+
+.nav-link[aria-current="page"] {
+   color: #00bbff;
+ }
 /* hm menu */
 .hm-menu{
    display: flex;
