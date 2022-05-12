@@ -125,9 +125,9 @@ nav ul li a{
    color: #00bbff;
 }
 
-.nav-link[aria-current="location"] {
+/* .nav-link[aria-current="location"] {
    color: #00bbff;
- }
+ } */
 /* hm menu */
 .hm-menu{
    display: flex;
