@@ -639,6 +639,10 @@ img {
 .prt-img .nth7{
    object-fit: contain;
 }
+.prt-img .nth8{
+   object-fit: cover;
+}
+
 .prt-crd{
    display: flex;
    flex-direction: column;
