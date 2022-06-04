@@ -74,8 +74,8 @@ next_btn.addEventListener("click",() => {
 
 function changeImage(index){
    images.forEach((img) => img.classList.remove("showImage"));
-//    console.log(images[index]);
-   images[index].classList.add("showImage");
+   console.log(images[index]);
+//    images[index].classList.add("showImage");
 }
 
 
