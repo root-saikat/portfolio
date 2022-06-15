@@ -22,8 +22,8 @@ let sr = ScrollReveal({
 sr.reveal(".chat");
 sr.reveal(".hire-me",{ origin:"top"});
 
-sr.reveal("#services",{ origin:"up"});
-sr.reveal(".work-xp-ltd",{ origin:"up"});
+sr.reveal("#services",{ origin:"left"});
+sr.reveal(".work-xp-ltd",{ origin:"left"});
 sr.reveal(".arrow2",{ origin:"up"});
 sr.reveal(".arrow1",{ origin:"left"});
 
