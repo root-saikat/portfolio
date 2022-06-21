@@ -54,7 +54,7 @@ model_overley.addEventListener("click",() => {prt_div.classList.remove("open");
 
 prev_btn.addEventListener("click",() => {
     if(currentindex === 0){
-        currentindex=7
+        currentindex=8
     }else{
         currentindex--;
     }
@@ -62,7 +62,7 @@ prev_btn.addEventListener("click",() => {
     changeImage(currentindex);
 });
 next_btn.addEventListener("click",() => {
-    if(currentindex === 7){
+    if(currentindex === 8){
         currentindex=0
     }else{
         currentindex++;
@@ -74,8 +74,8 @@ next_btn.addEventListener("click",() => {
 
 function changeImage(index){
    images.forEach((img) => img.classList.remove("showImage"));
-//    console.log(images[index]);
-   images[index].classList.add("showImage");
+   console.log(images[index]);
+//    images[index].classList.add("showImage");
 }
 
 
