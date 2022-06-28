@@ -272,6 +272,7 @@ nav ul li a{
    background-image: linear-gradient(to right, #00b8fe,#006ae8);
    padding: 6px 15px;
    color: rgb(0, 0, 0);
+   color: white;
    font-family: ubuntu-medium;
    border-bottom: 3.5px solid #000000;
 
