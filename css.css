@@ -106,9 +106,7 @@ nav{
    width: 60px;
    height: 60px;
 }
-nav ul{
-   /* padding-right: 5px; */
-}
+
 nav ul li{
    list-style-type: none;
    display: inline-block;
@@ -589,10 +587,6 @@ img {
    display: flex;
    align-items: flex-end;
    justify-content: space-between;
-}
-.port-title{
-    /* padding-bottom: 1rem; */
-    
 }
 .sub-hding{
    font-family:ubuntu-regular ;
@@ -1356,9 +1350,6 @@ html, body {
   }
   .about-text{
      padding-top: 55px;
-  }
-  .h1{
-     /* padding-bottom: 2%; */
   }
   .toshow{
      gap: 10px;
