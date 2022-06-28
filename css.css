@@ -47,7 +47,7 @@ html.sr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* grid-auto-rows: min-content; */
-    grid-template-rows: 415px auto 285px auto 400px 120px auto 350px;
+    grid-template-rows: 415px auto 285px auto 400px 120px auto auto 350px;
     grid-template-areas:
     "nav-bnr nav-bnr"
     "about about"
@@ -55,6 +55,7 @@ html.sr {
     "port  port"
     "work work"
     "counter counter"
+    "testi testi"
     "test test"
     "footer footer" ;
     
@@ -996,6 +997,14 @@ span.prt-icon {
    width:100%;
    height:100%;
 }
+
+.testimoni{
+   grid-area: testi;
+   margin-top: 40px;
+   padding: 0 10%;
+   width: 100%;
+   
+}
                              /* testimonial start */
 #testimonial{
    grid-area: test;  
@@ -1013,12 +1022,18 @@ span.prt-icon {
 .reviews{
    display: flex;
    margin-top: 40px;
+   overflow: hidden;
+   width: 100%;
+   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 10px 0px;
+   padding-left: 15px;
 }
 .review{
    display: flex;
+   /* width: 253px; */
 }
 .f-img{
    flex-basis: 40%;
+   height: 253px;
 }
 .f-text{
    display: flex;
@@ -1263,6 +1278,13 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+.owl-nav {
+   display: none;
+}
+.owl-dots {
+   margin-top: 20px;
+}
+
 
 /* media query*/
  @media screen and (max-width:1080px){
@@ -1391,6 +1413,12 @@ html, body {
    }
    .pdul.sticky a {
       display: block;
+   }
+   .f-text p {
+      font-size: 12pt;
+      color: #222222;
+      line-height: 23pt;
+      padding: 0 10%;
    }
 
 }
