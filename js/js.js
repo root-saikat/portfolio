@@ -27,12 +27,12 @@ sr.reveal(".work-xp-ltd",{ origin:"left"});
 sr.reveal(".arrow2",{ origin:"up"});
 sr.reveal(".arrow1",{ origin:"left"});
 
-let sl = ScrollReveal({
-  duration:1500,
-  distance:"60px",
-});
-sl.reveal(".f-review",{ origin:"left"});
-sl.reveal(".tnd-review",{ origin:"up"});
+// let sl = ScrollReveal({
+//   duration:1500,
+//   distance:"60px",
+// });
+// sl.reveal(".f-review",{ origin:"left"});
+// sl.reveal(".tnd-review",{ origin:"up"});
 // port
 
 let mixer = mixitup('.port-gl');
@@ -105,3 +105,15 @@ window.addEventListener("scroll",function(){
 //       link.setAttribute('aria-current', 'location')
 //     }
 // })
+
+// owl carosol
+
+// $(document).ready(function(){
+//     $(".owl-carousel").owlCarousel({
+//         items:1,
+//         loop:true,
+//         autoplay:false,
+//         autoplayTimeout:3000
+
+//     });
+//   });
