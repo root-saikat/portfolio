@@ -1913,6 +1913,7 @@ html, body {
    .toshow {
       max-width: 800px;
       padding-left: 13%;
+      padding-right: 16%;
    }
    .p p {
       color: rgb(68, 68, 68);
