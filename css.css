@@ -1899,3 +1899,66 @@ html, body {
    }
 
 }
+
+
+/* media query for bigger then 1300px screen sized device */
+@media screen and (min-width:1300px){
+  
+   .continer {
+      grid-template-rows: 600px auto 424px auto 400px 120px auto auto 350px;
+   }
+   .chat {
+      padding-top: 6%;
+   }
+   .toshow {
+      max-width: 800px;
+      padding-left: 13%;
+      padding-right: 16%;
+   }
+   .p p {
+      color: rgb(68, 68, 68);
+      font-size: 25px;
+   }
+   .p {
+      margin-top: 9%;
+      padding-bottom: 8%;
+   }
+   .about-text {
+      padding-top: 9%;
+   }
+   .skills {
+      padding-bottom: 50px;
+      padding-top: 50px;
+   }
+   .box canvas {
+      position: absolute;
+      top: 9px;
+      left: 40%;
+   }
+
+}
+
+@media screen and (min-width:1500px){ 
+   .box canvas {
+      position: absolute;
+      top: 9px;
+      left: 41%;
+   }
+}
+@media screen and (min-width:1700px){ 
+   .box canvas {
+      position: absolute;
+      top: 9px;
+      left: 42%;
+   }
+   .bnr {
+      padding: 10px 16% 20px 14%;
+   }
+}
+@media screen and (min-width:1840px){ 
+   .box canvas {
+      position: absolute;
+      top: 9px;
+      left: 43%;
+   }
+}
