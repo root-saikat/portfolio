@@ -558,7 +558,7 @@ footer{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: ;
+    /* margin-top: ; */
 }
 
 footer p:nth-child(1){
