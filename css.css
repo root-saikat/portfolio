@@ -462,7 +462,7 @@ img {
    top: 0;
    left: 0;
    height: 5px;
-   width: 65%;
+   width: 35%;
    background: linear-gradient(to right, #00b8fe,#006ae8);
    border-radius: 5px;
 }
