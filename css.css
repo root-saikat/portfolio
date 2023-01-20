@@ -1905,7 +1905,7 @@ html, body {
 @media screen and (min-width:1300px){
   
    .continer {
-      grid-template-rows: 600px auto 424px auto 400px 120px auto auto 350px;
+      grid-template-rows: 500px auto 424px auto 400px 120px auto auto 350px;
    }
    .chat {
       padding-top: 6%;
