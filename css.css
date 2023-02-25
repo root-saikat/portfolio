@@ -678,6 +678,7 @@ img {
    font-family:ubuntu-medium ;
    color: #444444;
    text-transform: capitalize;
+   white-space: nowrap;
 }
 .prt-overley{
    position: absolute;
