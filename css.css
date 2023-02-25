@@ -116,7 +116,7 @@ nav ul li{
 
 nav ul li a{
    font-family: ubuntu-regular;
-   font-size: 13pt;
+   font-size: 19pt;
    text-decoration: none;
    color: #444444;
 }
@@ -165,7 +165,7 @@ nav ul li a:hover{
 }
 /* bannar */
 .bnr{
-   padding: 10px 11% 20px 14% ;
+   padding: 10px 8% 20px 14% ;
    display: flex;
    justify-content: space-between;
    height: 80%;
@@ -233,8 +233,8 @@ nav ul li a:hover{
    display: flex;
    flex-direction: column;
    text-align: center;
-   justify-content: flex-end;
-   padding-bottom: 9%;
+   justify-content: center;
+   /* padding-bottom: 9%; */
    /* padding-right: 3%; */
 }
 .hireme a{
@@ -242,6 +242,10 @@ nav ul li a:hover{
 }
 .intro{
    display: flex;
+   justify-content: center;
+   font-weight: bold;
+   color: #444444;
+   font-size: 18pt;
 }
 .intro p{
    font-size: 12pt;
@@ -856,10 +860,15 @@ span.prt-icon {
 }
 .work-xp-ltd{
    display: flex;
-   padding-top: 5%;
+   padding-top: 20px;
    gap: 10px;
 
 }
+img.web-firm {
+   max-width: 300px;
+   height: 42px;
+}
+
 .work-xp-up{
    display: flex;
    justify-content: center;
@@ -1095,12 +1104,22 @@ span.prt-icon {
    display: flex;
    gap: 20px;
    margin-top: 20px;
+   align-items: center;
+}
+.newsl-frm button{
+   border: none;
+   margin-top: 0;
 }
 .newsl-frm input{
    width: 100%;
-   border: .5px solid white;
+   border:none;
    border-radius: 6px;
-   box-shadow: 2px 3px #44444422;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 10px;
+   padding-left: 10px;
+   height: 42px;
+}
+.newsl-frm input:focus{
+   outline:none;
 }
 .sub{
    border-radius: 30px;
@@ -1292,7 +1311,19 @@ html, body {
 
 
 /* media query*/
- @media screen and (max-width:1080px){
+@media screen and (max-width:1500px){
+   .p2 {
+      font-size: 30pt;
+   }
+   .bnr{
+      padding: 10px 8% 20px 12%;
+   }
+   nav ul li a{
+      font-size: 15pt;
+   }
+
+}
+@media screen and (max-width:1080px){
    .counter1 {
       display: flex;
       flex-direction: column;
@@ -1302,9 +1333,12 @@ html, body {
    .chat-p{
       padding: 3px 0;
    }
+   
 }
+
+
 /* media query for tablet/ipad Air */
-@media screen and (max-width:925px){
+@media screen and (max-width:992px){
    nav ul li a{
    color: #00bbff;
    }
@@ -1422,12 +1456,40 @@ html, body {
       line-height: 23pt;
       padding: 0 10%;
    }
+   .hire-me .p2 {
+      font-size: 18pt;
+   }
+   .intro{
+      font-size: 13pt;
+   }
+   .bnr {
+      padding: 10px 8% 20px 10%;
+   }
+   .pd {
+      padding-left: 5%;
+      padding-right: 5%;
+   }
+   .work-xp-dn span{
+      font-size: 14px;
+      font-weight: bold;
+   }
+   .counter1{
+      padding-bottom: 10px;
+   }
+   .counter2{
+      gap: 0;
+   }
+   .ct span{
+      text-align: center;
+   }
+   .for-unipd{
+      padding-bottom: 10px;
+      padding-top: 10px;
+   }
 
 }
 /* media query for phone/mobile device */
 @media screen and (max-width:450px){
-
-
    .continer{
       display: block;
     
@@ -1623,6 +1685,18 @@ html, body {
       color: #444444;
       padding-bottom: 15px;
    }
+   .intro{
+      font-size: 12pt;
+   }
+   .pd {
+      padding-left: 1%;
+      padding-right: 2%;
+      
+   }
+   .checkbtn {
+      margin-top: -9px;
+   }
+
 
 
 
@@ -1704,8 +1778,13 @@ html, body {
       font-size: xx-small;
    }
    .port-header {
+      flex-direction: column;
       width: 100vw;
       padding: 0 5%;
+      align-items: flex-start;
+   }
+   .prt-desc h3{
+      padding-left: 10px;
    }
    .port-gl{
       gap: 1rem;
@@ -1722,8 +1801,32 @@ html, body {
    .heding {
       padding-top: 2px;
       font-family: abrilfatface;
-      font-size: 25px;
+      font-size: 35px;
    }
+   .filter-btn{
+      font-size: 15px;
+   }
+   .filter-btns{
+      margin-top: 8px;
+   }
+   .chat{
+      display: none;
+   }
+   .bnr{
+      height: 240px;
+      justify-content: center;
+   }
+   .hire-me .p2{
+      font-size: 20px;
+      line-height: 30pt;
+   }
+   .hire-me .p1 {
+      font-size: 16px;
+   }
+   .hire-me {
+      padding-right: 26%;
+   }
+
 
 
    /* .model-overley {
@@ -1775,14 +1878,20 @@ html, body {
       margin: 0;
    }
    .xp {
-      margin: 0 37px;
+      margin: 0;
    }
+   h3.sub-hding {
+      font-size: 22px;
+   }
+
 
    /* counter */
    #counter{
-      padding-bottom: 5px;
-      padding-top: 4px;
-      clip-path: polygon(11% 0%, 88% 0%, 99% 100%, 0% 100%);
+      padding-bottom: 20px;
+      padding-top: 20px;
+      clip-path: none;
+      margin: 0;
+
    }
    .for-unipd{
       justify-content: center;
@@ -1797,7 +1906,7 @@ html, body {
       font-size: 25px;
    }
    .counter2 {
-      gap: 5px;
+      gap: 25px;
       padding-top: 0;
    }
    .ct{
@@ -1811,13 +1920,14 @@ html, body {
    .ct span {
       font-size: 11px;
    }
-   .counter-box2{
-      padding: 1px 6px;
+   .counter-box2 {
+      padding: 8px 20px;
+      font-size: 20px;
       height: fit-content;
    }
-   .counter-box1{
-      font-size: 15px;
-      padding: 1px 6px;
+   .counter-box1 {
+      font-size: 20px;
+      padding: 8px 12px;
       height: fit-content;
    }
    /* testimonial */
@@ -1838,6 +1948,10 @@ html, body {
       font-size: 12px;
       font-weight: normal;
       padding: 0 5px;
+      line-height: 20px;
+   }
+   .f-img{
+      height: auto;
    }
    .review-nm {
       font-size: 17px;
@@ -1904,17 +2018,17 @@ html, body {
       padding-bottom: 10px;
    }
    .footer4{
-      padding-top: 10px;
-      padding-bottom: 5px;
+      padding-top: 30px;
+      padding-bottom: 30px;
       margin: 0 30px;
    }
 
 }
 
 
+
 /* media query for bigger then 1300px screen sized device */
 @media screen and (min-width:1300px){
-  
    .continer {
       grid-template-rows: 500px auto 424px auto 400px 120px auto auto 350px;
    }
@@ -1928,7 +2042,7 @@ html, body {
    }
    .p p {
       color: rgb(68, 68, 68);
-      font-size: 25px;
+      /* font-size: 25px; */
    }
    .p {
       margin-top: 9%;
@@ -1946,9 +2060,9 @@ html, body {
       top: 9px;
       left: 40%;
    }
-   .hire-me {
+   /* .hire-me {
     padding-bottom: 13%;
-    }
+    } */
 
 }
 
@@ -1964,9 +2078,6 @@ html, body {
       position: absolute;
       top: 9px;
       left: 42%;
-   }
-   .bnr {
-      padding: 10px 16% 20px 14%;
    }
 }
 @media screen and (min-width:1840px){ 

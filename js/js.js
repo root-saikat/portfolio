@@ -83,7 +83,7 @@ function changeImage(index){
 // typed js 
 
 var typed = new Typed(".type-0", {
-    strings: ["Web Designer . Graphic Designer . Wordpress Designer"],
+    strings: ["Front-end Designer/Developer"],
     typeSpeed: 50,
     showCursor: false,
     // backSpeed: 60,
