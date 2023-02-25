@@ -873,6 +873,8 @@ span.prt-icon {
    flex-direction: column;
    align-content: center;
    align-items: center;
+   padding-top: 10px;
+   
 }
 .work-xp-dn span{
    color: #444444;
@@ -899,6 +901,9 @@ span.prt-icon {
    font-size: 32px;
    display: flex;
    align-items: center;
+}
+.hv{
+   border: 1px solid rgb(0, 158, 247);
 }
 .hv:hover{
    background-image: linear-gradient(to right,#00b4fd,#0068e3);
@@ -1226,7 +1231,7 @@ footer{
    font-family: abrilfatface;
 }
 .ftmail{
-   font-size: 18px;
+   font-size: 22px;
    /* font-weight: bold; */
    font-family: ubuntu-medium;
 
@@ -1265,7 +1270,7 @@ footer{
    font-family:ubuntu-regular ;
 }
 span.ftmail:hover {
-   font-size: 22px;
+   /* font-size: 22px; */
    color: green;
 }
 
